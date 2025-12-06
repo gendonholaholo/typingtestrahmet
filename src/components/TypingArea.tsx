@@ -227,15 +227,15 @@ export default function TypingArea() {
       >
         <div className="text-center px-4">
           <p className="text-gray-300 text-base sm:text-xl mb-2 sm:mb-3 group-hover:text-white transition-colors">
-            Klik di sini atau tekan tombol apa saja untuk mulai
+            Click here or press any key to start
           </p>
           <p className="text-gray-500 text-xs sm:text-sm">
-            Tekan Tab untuk ulang kapan saja
+            Press Tab to restart anytime
           </p>
           <div className="mt-4 sm:mt-6 hidden sm:flex gap-4 justify-center text-gray-500 text-xs">
-            <span className="px-3 py-1.5 glass rounded-lg">Spasi = lanjut</span>
-            <span className="px-3 py-1.5 glass rounded-lg">Backspace = hapus</span>
-            <span className="px-3 py-1.5 glass rounded-lg">Tab = ulang</span>
+            <span className="px-3 py-1.5 glass rounded-lg">Space = next</span>
+            <span className="px-3 py-1.5 glass rounded-lg">Backspace = delete</span>
+            <span className="px-3 py-1.5 glass rounded-lg">Tab = restart</span>
           </div>
         </div>
       </div>
@@ -280,9 +280,9 @@ export default function TypingArea() {
       </div>
 
       <div className="hidden sm:flex gap-3 mb-4 text-xs text-gray-500">
-        <span className="px-3 py-1.5 glass rounded-lg">Spasi = lanjut</span>
-        <span className="px-3 py-1.5 glass rounded-lg">Backspace = hapus</span>
-        <span className="px-3 py-1.5 glass rounded-lg">Tab = ulang</span>
+        <span className="px-3 py-1.5 glass rounded-lg">Space = next</span>
+        <span className="px-3 py-1.5 glass rounded-lg">Backspace = delete</span>
+        <span className="px-3 py-1.5 glass rounded-lg">Tab = restart</span>
       </div>
 
       <div className="relative glass-strong rounded-2xl p-4 sm:p-8 min-h-[150px] sm:min-h-[180px] overflow-hidden">
@@ -307,7 +307,7 @@ export default function TypingArea() {
       </div>
 
       <div className="mt-3 sm:mt-4 text-center">
-        <span className="text-gray-500 text-xs sm:text-sm">Kata saat ini: </span>
+        <span className="text-gray-500 text-xs sm:text-sm">Current word: </span>
         <span className="text-white font-mono text-base sm:text-lg">
           {words[currentWordIndex] || ''}
         </span>

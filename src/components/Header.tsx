@@ -19,9 +19,9 @@ export default function Header() {
   }, []);
 
   const navItems = [
-    { href: '/', label: 'Tes' },
-    { href: '/practice', label: 'Latihan' },
-    { href: '/analytics', label: 'Analitik' },
+    { href: '/', label: 'Test' },
+    { href: '/practice', label: 'Practice' },
+    { href: '/analytics', label: 'Analytics' },
   ];
 
   return (

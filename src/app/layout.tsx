@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     default: "TypeMaster - Master Touch Typing with Deep Analytics",
     template: "%s | TypeMaster"
   },
-  description: "Improve your typing speed (WPM) and accuracy with TypeMaster. Free advanced typing test with real-time analytics, problem word detection, and personalized practice modes.",
+  description: "Improve your typing speed and accuracy with TypeMaster. Free advanced typing test with real-time analytics and problem word detection.",
   applicationName: "TypeMaster",
   authors: [{ name: "TypeMaster Team", url: "https://typemaster.app" }],
   generator: "Next.js",

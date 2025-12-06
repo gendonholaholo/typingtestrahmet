@@ -12,6 +12,7 @@ import {
   ResponsiveContainer,
   ReferenceLine,
 } from 'recharts';
+import AdUnit from './AdUnit';
 
 export default function Results() {
   const { status, results, wordResults, resetTest, isPractice } = useTypingStore();
@@ -113,6 +114,9 @@ export default function Results() {
           <div className="text-gray-400 text-sm uppercase tracking-wide">Burst</div>
         </div>
       </div>
+
+      {/* Ad Placement: High Visibility, Post-Result */}
+      <AdUnit slot="results-middle" format="horizontal" />
 
       {wordPerformance.length > 1 && (
         <div className="glass-card rounded-2xl p-6 mb-8">

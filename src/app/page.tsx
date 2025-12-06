@@ -6,6 +6,7 @@ import Settings from '@/components/Settings';
 import Results from '@/components/Results';
 import Hero from '@/components/Hero';
 import SEOContent from '@/components/SEOContent';
+import AdUnit from '@/components/AdUnit';
 import { useTypingStore } from '@/store/typingStore';
 
 export default function Home() {
@@ -87,6 +88,9 @@ export default function Home() {
           <SEOContent />
         </>
       )}
+
+      {/* Ad Placement: Footer */}
+      <AdUnit slot="landing-footer" format="horizontal" className="mt-8" />
     </div>
   );
 }

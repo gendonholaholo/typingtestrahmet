@@ -230,12 +230,12 @@ export default function TypingArea() {
             Klik di sini atau tekan tombol apa saja untuk mulai
           </p>
           <p className="text-gray-500 text-xs sm:text-sm">
-            Tekan Tab untuk restart kapan saja
+            Tekan Tab untuk ulang kapan saja
           </p>
           <div className="mt-4 sm:mt-6 hidden sm:flex gap-4 justify-center text-gray-500 text-xs">
             <span className="px-3 py-1.5 glass rounded-lg">Spasi = lanjut</span>
             <span className="px-3 py-1.5 glass rounded-lg">Backspace = hapus</span>
-            <span className="px-3 py-1.5 glass rounded-lg">Tab = restart</span>
+            <span className="px-3 py-1.5 glass rounded-lg">Tab = ulang</span>
           </div>
         </div>
       </div>
@@ -282,7 +282,7 @@ export default function TypingArea() {
       <div className="hidden sm:flex gap-3 mb-4 text-xs text-gray-500">
         <span className="px-3 py-1.5 glass rounded-lg">Spasi = lanjut</span>
         <span className="px-3 py-1.5 glass rounded-lg">Backspace = hapus</span>
-        <span className="px-3 py-1.5 glass rounded-lg">Tab = restart</span>
+        <span className="px-3 py-1.5 glass rounded-lg">Tab = ulang</span>
       </div>
 
       <div className="relative glass-strong rounded-2xl p-4 sm:p-8 min-h-[150px] sm:min-h-[180px] overflow-hidden">

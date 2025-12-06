@@ -19,7 +19,7 @@ export default function Header() {
   }, []);
 
   const navItems = [
-    { href: '/', label: 'Test' },
+    { href: '/', label: 'Tes' },
     { href: '/practice', label: 'Latihan' },
     { href: '/analytics', label: 'Analitik' },
   ];
